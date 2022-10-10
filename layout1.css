@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+body{
+    background: linear-gradient(lightblue,darkblue);
+    height: 100vh;
+}
+
+.box-1,  .box-2, .box-3 {
+    border: 5px solid orangered;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+   color: #fff;
+   width: 100%;
+   
+   
+}
+
+.beginner {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px  ;
+    height: 90vh;
+    width: 90%;
+    margin: 20px auto;
+
+
+}
